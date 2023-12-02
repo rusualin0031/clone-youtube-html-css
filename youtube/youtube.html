@@ -11,216 +11,240 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/video.css" />
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="images/icons/hamburger-menu.svg" alt="">
-        <img class="youtube-logo" src="images/icons/youtube-logo.svg" alt="">
+        <img
+          class="hamburger-menu"
+          src="images/icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img class="youtube-logo" src="images/icons/youtube-logo.svg" alt="" />
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search" />
         <button class="search-button">
-          <img class="search-icon" src="images/icons/search.svg" alt="">
+          <img class="search-icon" src="images/icons/search.svg" alt="" />
           <div class="tooltip">Search</div>
         </button>
         <button class="voice-search-button">
-          <img class="voice-search-icon" src="images/icons/voice-search-icon.svg" alt="">
+          <img
+            class="voice-search-icon"
+            src="images/icons/voice-search-icon.svg"
+            alt=""
+          />
           <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img class="upload-icon" src="images/icons/upload.svg" alt="">
-        <img class="youtube-apps-icon" src="images/icons/youtube-apps.svg" alt="">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="images/icons/upload.svg" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <img
+          class="youtube-apps-icon"
+          src="images/icons/youtube-apps.svg"
+          alt=""
+        />
 
         <div class="notifications-icon-container">
-          <img class="notifications-icon" src="images/icons/notifications.svg" alt="">
+          <img
+            class="notifications-icon"
+            src="images/icons/notifications.svg"
+            alt=""
+          />
           <div class="notifications-count">8</div>
         </div>
-  
-        <img class="current-user-picture" src="images/icons/alin.jpg" alt="">
-      </div>
-    </div>
 
-    <div class="sidebar">
-      <div class="sidebar-link"><img src="images/icons/home.svg" alt="">
+        <img class="current-user-picture" src="images/icons/alin.jpg" alt="" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="images/icons/home.svg" alt="" />
         <div>Home</div>
       </div>
-      <div class="sidebar-link"><img src="images/icons/explore.svg" alt="">
+      <div class="sidebar-link">
+        <img src="images/icons/explore.svg" alt="" />
         <div>Explore</div>
       </div>
-      <div class="sidebar-link"><img src="images/icons/subscriptions.svg" alt="">
+      <div class="sidebar-link">
+        <img src="images/icons/subscriptions.svg" alt="" />
         <div>Subsicriptions</div>
       </div>
-      <div class="sidebar-link"><img src="images/icons/originals.svg" alt="">
+      <div class="sidebar-link">
+        <img src="images/icons/originals.svg" alt="" />
         <div>Originals</div>
       </div>
-      <div class="sidebar-link"><img src="images/icons/youtube-music.svg" alt="">
+      <div class="sidebar-link">
+        <img src="images/icons/youtube-music.svg" alt="" />
         <div>Youtube Music</div>
       </div>
-      <div class="sidebar-link"><img src="images/icons/library.svg" alt="">
+      <div class="sidebar-link">
+        <img src="images/icons/library.svg" alt="" />
         <div>Library</div>
       </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href=>
+              <img class="thumbnail" src="images/hqdefault.webp" />
+            </a>
+            <div class="video-time">30:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/channels4_profile.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Playstation Portal: Il pelapatete!</p>
+  
+              <p class="video-author">QDSS</p>
+  
+              <p class="video-stats">129.307 visualizzazioni · 3 giorni fa</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href=>
+            <img class="thumbnail" src="images/designing.webp" alt="" />
+          </a>
+            <div class="video-time">35:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/designing.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Designing the UI for my Farming Game</p>
+  
+              <p class="video-author">ThinMatrix</p>
+  
+              <p class="video-stats">96.337M views · 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/thumbnail-1.webp" alt="" />
+            <div class="video-time">14:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/channel-1 (1).jpeg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+  
+              <p class="video-author">Marques Brownlee</p>
+  
+              <p class="video-stats">3.4M views · 6 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/thumbnail-2.webp" alt="" />
+            <div class="video-time">32:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/channel-2.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">Try Not To Laugh Challenge #9</p>
+  
+              <p class="video-author">Markiplier</p>
+  
+              <p class="video-stats">19M views · 1 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=bhVNu54_T8s">
+              <img class="thumbnail" src="images/i.madi,is.indie.webp" alt="" />
+            </a>
+            <div class="video-time">12:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/i made this indie.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I made this indie game and it changed my life
+              </p>
+  
+              <p class="video-author">Jordan Lakiere</p>
+  
+              <p class="video-stats">81.270 views · 9 days ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <ctionìiv class="video-preview">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="images/i played hackthe box.webp"
+              alt=""
+            />
+            <div class="video-time">51:40</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-pictures">
+              <img
+                class="profile-picture"
+                src="images/channel-pictures/iPlayed.jpg"
+                alt=""
+              />
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I Played HackTheBox For 30 Days - Here's What I Learned
+              </p>
+              <p class="video-author">Grant Colins</p>
+              <p class="video-stats">68.600 views · 4 months ago</p>
+            </div>
+          </div>
+      </section>
+      </main>
     </div>
-    
-
-    <div class="video-grid">
-      
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/hqdefault.webp"/>
-        <div class="video-time">30:00</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/channels4_profile.jpg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Playstation Portal: Il pelapatete!
-          </p>
-
-          <p class="video-author">QDSS</p>
-
-          <p class="video-stats">129.307 visualizzazioni
-            · 3 giorni fa</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/designing.webp" alt="" />
-        <div class="video-time">35:20</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/designing.jpg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-              Designing the UI for my Farming Game
-          </p>
-
-          <p class="video-author">ThinMatrix</p>
-
-          <p class="video-stats">96.337M views · 2 weeks ago</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-1.webp" alt="" />
-        <div class="video-time">14:45</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/channel-1 (1).jpeg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-
-          <p class="video-author">Marques Brownlee</p>
-
-          <p class="video-stats">3.4M views · 6 months ago</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/thumbnail-2.webp" alt="" />
-        <div class="video-time">32:50</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/channel-2.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Try Not To Laugh Challenge #9
-          </p>
-
-          <p class="video-author">Markiplier</p>
-
-          <p class="video-stats">19M views · 1 months ago</p>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/i.madi,is.indie.webp" alt="" />
-        <div class="video-time">12:34</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/i made this indie.jpg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            I made this indie game and it changed my life
-          </p>
-
-          <p class="video-author">Jordan Lakiere</p>
-
-          <p class="video-stats">81.270 views · 9 days ago</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="images/i played hackthe box.webp" alt="" />
-        <div class="video-time">51:40</div>
-      </div>
-      <div class="video-info-grid">
-        <div class="channel-pictures">
-          <img
-            class="profile-picture"
-            src="images/channel-pictures/iPlayed.jpg"
-            alt=""
-          />
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            I Played HackTheBox For 30 Days - Here's What I Learned
-          </p>
-          <p class="video-author">Grant Colins</p>
-          <p class="video-stats">68.600 views · 4 months ago</p>
-        </div>
-      </div>
-    </div>
-    </div>
-
-    
-
   </body>
 </html>
